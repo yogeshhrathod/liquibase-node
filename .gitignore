@@ -1,9 +1,9 @@
 # PROJECT
 node_modules
+dist
 .nyc_output
 coverage
 .npmrc
-
 # Mac OS
 .DS_Store
 

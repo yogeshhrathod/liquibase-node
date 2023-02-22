@@ -1,4 +1,3 @@
-import { join } from 'path';
 import { LiquibaseConfig } from '../../models';
 
 export const MSSQL_DEFAULT_CONFIG: LiquibaseConfig = {
@@ -6,5 +5,5 @@ export const MSSQL_DEFAULT_CONFIG: LiquibaseConfig = {
   changeLogFile: '/examples/change-log-examples/mssql/changelog.xml',
   username: 'sa',
   password: '',
-  classpath: join(__dirname, '../../../drivers/mssql-jdbc-7.4.1.jre8.jar'),
+  classpath: '',
 };

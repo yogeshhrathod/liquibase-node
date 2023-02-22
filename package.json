@@ -1,6 +1,6 @@
 {
-  "name": "liquibase",
-  "version": "2.0.5",
+  "name": "liquibase-node",
+  "version": "1.0.0",
   "description": "Node.js wrapper for Liquibase",
   "bin": {
     "node-liquibase": "dist/cli.js"
@@ -19,9 +19,8 @@
     "test": "tsdx test",
     "test:watch": "yarn test --watchAll",
     "lint": "tsdx lint",
-    "copy:dependencies": "yarn copy:liquibase && yarn copy:drivers",
+    "copy:dependencies": "yarn copy:liquibase",
     "copy:liquibase": "ncp ./bin/liquibase ./dist/liquibase",
-    "copy:drivers": "ncp ./drivers ./dist/drivers",
     "clean": "yarn clean:dist",
     "clean:dist": "yarn rimraf ./dist",
     "semantic-release": "semantic-release",
@@ -34,7 +33,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/liquibase/node-liquibase.git"
+    "url": "https://github.com/yogeshhrathod/liquibase-node.git"
   },
   "keywords": [
     "liquibase",
@@ -48,12 +47,12 @@
     "postgresql",
     "migration"
   ],
-  "author": "tabuckner",
+  "author": "tabuckner,yogesh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/liquibase/node-liquibase/issues"
+    "url": "https://github.com/yogeshhrathod/liquibase-node/issues"
   },
-  "homepage": "https://github.com/liquibase/node-liquibase#readme",
+  "homepage": "https://github.com/yogeshhrathod/liquibase-node#readme",
   "peerDependencies": {},
   "husky": {
     "hooks": {
