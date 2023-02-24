@@ -1,9 +1,9 @@
 ![Website](https://img.shields.io/website?color=%233090C7&up_message=liquibase.org&url=https%3A%2F%2Fwww.liquibase.org%2F)
 ![Website](https://img.shields.io/website?color=%233090C7&label=docs&up_message=docs.liquibase.com&url=https%3A%2F%2Fdocs.liquibase.com%2F)
 ![Twitter Follow](https://img.shields.io/twitter/follow/liquibase?style=social)
-![NPM](https://img.shields.io/npm/dt/liquibase?label=total%20downloads)
-![NPM](https://img.shields.io/npm/dw/liquibase?label=weekly%20downloads)
-![GitHub repo size](https://img.shields.io/github/repo-size/liquibase/node-liquibase?logo=GitHub&style=flat-square)
+![NPM](https://img.shields.io/npm/dt/liquibase-node?label=total%20downloads)
+![NPM](https://img.shields.io/npm/dw/liquibase-node?label=weekly%20downloads)
+![GitHub repo size](https://img.shields.io/github/repo-size/liquibase/liquibase-node?logo=GitHub&style=flat-square)
 
 ---
 
