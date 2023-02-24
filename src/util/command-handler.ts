@@ -10,6 +10,7 @@ export class CommandHandler {
   }
 
   public spawnChildProcess(commandString: string): Promise<string> {
+    commandString=commandString.replace(/--password="(.+?)"/, '--password="*****"');
     this.logger.log(`Running ${commandString}...`);
 
     return new Promise((resolve, reject) => {
