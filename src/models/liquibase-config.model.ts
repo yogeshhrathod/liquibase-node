@@ -70,4 +70,9 @@ export interface LiquibaseConfig {
    * For MSSQL only: Specifies in what Catalog the Liquibase DATABASECHANGELOG and DATABASECHANGELOGLOCK tables will be managed
    */
   liquibaseCatalogName?: string;
+
+  /**
+   * it let liquibase know its running in headless so it does not show any prompt
+   */
+  headless?: string;
 }

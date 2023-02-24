@@ -6,4 +6,5 @@ export const POSTGRESQL_DEFAULT_CONFIG: LiquibaseConfig = {
   username: 'postgres',
   password: '',
   classpath: '',
+  headless:"true"
 };
