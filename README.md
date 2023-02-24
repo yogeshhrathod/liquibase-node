@@ -15,6 +15,8 @@
 [4]: https://github.com/liquibase/liquibase
 [5]: https://www.youtube.com/channel/UC5qMsRjObu685rTBq0PJX8w
 
+## This is forked project with maintained and updated dependencies
+
 ![Node and Liquibase](/docs/assets/node-liquibase.png)
 Use Node and databases? Want to do smart architecture decisions? Do not invent wheel, use Liquibase.
 Liquibase is an open-source database-independent library for tracking, managing and applying database schema changes.
