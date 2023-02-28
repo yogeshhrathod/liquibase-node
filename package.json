@@ -68,6 +68,7 @@
   "devDependencies": {
     "@semantic-release/git": "^10.0.1",
     "@types/jest": "^26.0.22",
+    "babel-jest": "^29.4.3",
     "dotenv": "^8.2.0",
     "husky": "^6.0.0",
     "ncp": "^2.0.0",
